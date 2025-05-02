@@ -6,98 +6,98 @@
             name="description"
             content="Агентство веб-разработки - создаем современные сайты" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Веб-Агентство</title>
+        <title id="hero-title">Веб-Агентство</title>
         <link rel="stylesheet" href="styles.css" />
     </head>
-    <body>
-        <header>
-            <h1>WebAgency</h1>
+    <body  class="body">
+        <header class="header" >
+            <h1 >WebAgency</h1>
             <nav>
-                <ul>
+                <ul class="portfolio-grid">
                     <li>
-                        <a href="#about">О нас</a>
+                        <a   href="#about">О нас</a>
                     </li>
                     <li>
-                        <a href="#services">Услуги</a>
+                        <a "  href="#services">Услуги</a>
                     </li>
                     <li>
-                        <a href="#portfolio">Портфолио</a>
+                        <a "  href="#portfolio">Портфолио</a>
                     </li>
                     <li>
-                        <a href="#testimonials">Отзывы</a>
+                        <a  href="#testimonials">Отзывы</a>
                     </li>
                     <li>
-                        <a href="#contact">Контакты</a>
+                        <a  href="#contact">Контакты</a>
                     </li>
                 </ul>
             </nav>
         </header>
 
-        <section>
-            <h2>Создаем современные и удобные сайты</h2>
-            <p>Профессиональная веб-разработка для вашего бизнеса</p>
-            <button>Заказать сайт</button>
+        <section class="hero-section" >
+            <h2 class="service-list">Создаем современные и удобные сайты</h2>
+            <p class='service-list'>Профессиональная веб-разработка для вашего бизнеса</p>
+            <button class="primary" class="service-list">Заказать сайт</button>
         </section>
 
-        <section>
-            <h2>О нас</h2>
-            <p>
+        <section class="hero-section">
+            <h2 class="service-list">О нас</h2>
+            <p class="service-list">
                 Мы - команда профессионалов, разрабатывающая стильные и
                 функциональные сайты.
             </p>
-            <img src="assets/team.jpg" alt="Наша команда" />
+            <img class="about-image"  src="assets/team.jpg" alt="Наша команда" />
         </section>
 
-        <section>
-            <h2>Наши услуги</h2>
-            <ul>
-                <li>Дизайн и разработка</li>
-                <li>SEO-оптимизация</li>
-                <li>Поддержка и обслуживание</li>
-                <li>Аналитика и маркетинг</li>
+        <section class="services-section"  >
+            <h2 >Наши услуги</h2>
+            <ul class="header" >
+                <li class="form-input">Дизайн и разработка</li>
+                <li class="form-input">SEO-оптимизация</li>
+                <li class="form-input">Поддержка и обслуживание</li>
+                <li class="form-input" >Аналитика и маркетинг</li>
             </ul>
         </section>
 
-        <section>
-            <h2>Наши работы</h2>
+        <section >
+            <h2  >Наши работы</h2>
             <div>
-                <div>
-                    <img src="assets/project1.webp" alt="Проект 1" />
+                <div class="portfolio-item img">
+                    <img  src="assets/project1.webp" alt="Проект 1" />
                 </div>
                 <div>
-                    <img src="assets/project2.png" alt="Проект 2" />
+                    <img  src="assets/project2.png" alt="Проект 2" />
                 </div>
                 <div>
-                    <img src="assets/project3.png" alt="Проект 3" />
+                    <img  src="assets/project3.png" alt="Проект 3" />
                 </div>
             </div>
         </section>
 
-        <section>
+        <section class="testimonials-section">
             <h2>Отзывы клиентов</h2>
             <blockquote>
-                <p>"Отличная работа! Сайт сделали быстро и качественно."</p>
+                <p class="testimonial">"Отличная работа! Сайт сделали быстро и качественно."</p>
                 <cite>— Иван Петров, CEO</cite>
             </blockquote>
         </section>
 
-        <footer>
+        <footer class="footer-section">
             <h2>Контакты</h2>
-            <p>
+            <p class="contact-info a" class="service-item">
                 Email:
-                <a href="mailto:contact@webagency.com">contact@webagency.com</a>
+                <a   href="mailto:contact@webagency.com">contact@webagency.com</a>
             </p>
-            <p>
+            <p class="contact-info a" class="service-item">
                 Телефон:
-                <a href="tel:+79991234567">+7 999 123 45 67</a>
+                <a   href="tel:+79991234567">+7 999 123 45 67</a>
             </p>
-            <form>
-                <input type="text" name="name" placeholder="Ваше имя" />
-                <input type="email" name="email" placeholder="Ваш email" />
-                <textarea
+            <form class="contact-form">
+                <input class="form-input" type="text" name="name" placeholder="Ваше имя" class="contact-form"/>
+                <input class="form-input" type="email" name="email" placeholder="Ваш email" class="contact-form" />
+                <textarea class="form-textarea"
                     name="message"
-                    placeholder="Ваше сообщение"></textarea>
-                <button type="submit">Отправить</button>
+                    placeholder="Ваше сообщение" ></textarea>
+                <button class="submit" >Отправить</button>
             </form>
         </footer>
     </body>

@@ -16,14 +16,14 @@ body {
     padding: 40px;
     text-align: center;
 }
-.form-input, .form-textarea {
+.form-input, .form-textarea{
     width: 80%;
     max-width: 400px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-.footer-section {
+.footer-section{
     background-color: #222;
     color: white;
     text-align: center;
